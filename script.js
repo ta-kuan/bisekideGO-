@@ -31,5 +31,6 @@ function create() {
     .setAlpha(0);
 
   const back = this.add.rectangle(0,0,width,height,0xffffff)
-    .setDisplaySize(width, height);
+    .setDisplaySize(width, height)
+    .setOrigin(0.5);
 }
