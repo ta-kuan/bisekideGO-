@@ -27,6 +27,6 @@ function create() {
 
   let back = this.add.rectangle(0,0,width,height,0xffffff)
     .setOrigin(0);
-  let bi1 = this.add.image(0,height/2,'bi1')
-    .setOrigin(0);
+  let bi1 = this.add.image(width/2,height/2,'bi1')
+    .setOrigin(0.5);
 }
