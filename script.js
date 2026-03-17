@@ -24,10 +24,9 @@ function create() {
 
   const width = this.scale.width;
   const height = this.scale.height;
-  
-  let bi1 = this.add.image(0,0,'bi1')
-    .setOrigin(0);
 
   const back = this.add.rectangle(0,0,width,height,0xffffff)
+    .setOrigin(0);
+  let bi1 = this.add.image(0,0,'bi1')
     .setOrigin(0);
 }
